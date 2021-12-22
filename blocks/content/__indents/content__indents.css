@@ -1,0 +1,13 @@
+.content__indents {
+  margin: 92px auto 0;
+}
+@media screen and (max-width: 1023px) {
+  .content__indents {
+    margin-top: 88px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .content__indents {
+    margin-top: 64px;
+  }
+}

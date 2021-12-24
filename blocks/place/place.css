@@ -3,6 +3,7 @@
   grid-template-columns: 460px 484px;
   align-items: start;
   gap: 48px 40px;
+  box-sizing: border-box;
 }
 @media screen and (max-width: 1279px) {
   .place {
@@ -19,6 +20,11 @@
 @media screen and (max-width: 767px) {
   .place {
     gap: 32px 0;
+    grid-template-columns: minmax(320px, 100%);
+  }
+}
+@media screen and (max-width: 567px) {
+  .place {
     grid-template-columns: minmax(320px, 100%);
   }
 }

@@ -1,12 +1,8 @@
 .header__logo {
-  width: 176px;
-  height: 52px;
+  width: 100%;
+  height: 100%;
+  transition: all 0.2s;
 }
 .header__logo:hover {
   filter: contrast(50%);
-}
-@media screen and (max-width: 767px) {
-  .header__logo {
-    height: 42px;
-  }
 }
